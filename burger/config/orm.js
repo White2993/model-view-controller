@@ -1,3 +1,3 @@
-var connection = require('./config/connection.js');
+var connection = require('../config/connection.js');
 
-module.exports = orm;
+//module.exports = orm;
