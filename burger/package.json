@@ -1,0 +1,26 @@
+{
+  "name": "model-view-controller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/White2993/model-view-controller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/White2993/model-view-controller/issues"
+  },
+  "homepage": "https://github.com/White2993/model-view-controller#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.5.3",
+    "mysql": "^2.17.1",
+    "orm": "^5.0.5"
+  }
+}
