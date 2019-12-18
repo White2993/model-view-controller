@@ -4,8 +4,10 @@ $(function() {
     var hunger = $(this).data("hunger");
 
     var hungerState = {
-      hungry: hunger
+      devoured: hunger
     };
+    console.log(id);
+    console.log(hungerState);
 
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
@@ -23,7 +25,7 @@ $(function() {
 
     var newBurger = {
       name: $("#burg").val().trim(),
-      hungry: $("[name=devoured]:checked").val().trim()
+      devoured: $("[name=devoured]:checked").val().trim()
     };
 
     $.ajax("/api/burgers", {
